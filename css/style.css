@@ -146,6 +146,7 @@ main section.menu .members::-webkit-scrollbar-thumb {
 
 main section.menu .members {
   max-height: 555px;
+  max-height: calc(100vh - 200px);
   overflow-y: auto;
 }
 
@@ -290,6 +291,7 @@ main>.container .chat .chat-page .messages {
   padding: 10px 10px 30px;
   width: 100%;
   max-height: 514px;
+  max-height: calc(100vh - 240px);
   overflow-y: auto;
   display: flex;
   flex-direction: column;
