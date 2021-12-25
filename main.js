@@ -74,7 +74,7 @@ form.addEventListener( "submit", function ( e ) {
   `;
   output.prepend( liOut );
   liOut.innerHTML = newMember;
-
+  sendTo.textContent = nameAdded.value;
   funcAddName();
 
   storageData( id );
