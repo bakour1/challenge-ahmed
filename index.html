@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>messenger</title>
+  <title>messenger Sami</title>
   <!---- Render All Elements Normally ---->
   <link rel="stylesheet" href="css/normalize.css" />
   <!-------- Font Awesome Library -------->
@@ -22,166 +22,50 @@
       <section class="menu">
         <header>
           <form action="">
-            <input type="search" name="search" placeholder="Search">
+            <input id="inputSearch" type="search" name="search" placeholder="Search">
           </form>
-          <div class="create">
+          <div id="open-create" class="create">
             <i class="far fa-edit"></i>
+          </div>
+          <div class="add-name">
+            <h3> New Message:</h3>
+            <div class="input-add">
+              <div class="add">
+                <span>To:</span>
+                <input id="name-added" type="text" name="addName" onfocus="this.value=''" value="Type a Name">
+              </div>
+              <div class="new-message">
+                <textarea name="message" id="new-message" onfocus="this.value=''"
+                  rows="18">Type your Message...</textarea>
+              </div>
+              <form action="" class="send create-member">
+                <button id="creat-member" type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+            </div>
           </div>
         </header>
         <div class="members">
-          <ul>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSImhrk_R9iC1DtID7a9M7ouwDtvB_ourZY5w&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>thomas bangalter</h3>
-                <p>i was wondering ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8_l-NUc-I5HoS2FQzrljDd5rrbLQqULorw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>dog woofson</h3>
-                <p>i've forgotten how it felt bbbbbbbbbbbbbbbbbb</p>
-                <span class="date">1:44 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpq-D_mNYfW531QWhAc1fVqW2XWdO9fCzO6Q&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>louis CK</h3>
-                <p>but we're probably gonna aaaaaaaaaaaaaaaaaaa</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTEJLWAoRb2Iq93oKlvjIkdiDyZ9mGHQ3dw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>bo jackson</h3>
-                <p>it's not that bad ddddddddddddddddddddddddddddddd</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVguuSK25N-_2r6B9vp5J-TreN3462dPTQAw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>michael jordan</h3>
-                <p>wasup for the third time li lllllllllllllllllll</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member active">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvNRAu6lhqeqH0fexU5NtocTVa9eW7XZWsA&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>drake</h3>
-                <p>howdoyoudospace</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSImhrk_R9iC1DtID7a9M7ouwDtvB_ourZY5w&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>thomas bangalter</h3>
-                <p>i was wondering ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy8_l-NUc-I5HoS2FQzrljDd5rrbLQqULorw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>dog woofson</h3>
-                <p>i've forgotten how it felt bbbbbbbbbbbbbbbbbb</p>
-                <span class="date">1:44 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpq-D_mNYfW531QWhAc1fVqW2XWdO9fCzO6Q&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>louis CK</h3>
-                <p>but we're probably gonna aaaaaaaaaaaaaaaaaaa</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaTEJLWAoRb2Iq93oKlvjIkdiDyZ9mGHQ3dw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>bo jackson</h3>
-                <p>it's not that bad ddddddddddddddddddddddddddddddd</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVguuSK25N-_2r6B9vp5J-TreN3462dPTQAw&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>michael jordan</h3>
-                <p>wasup for the third time li lllllllllllllllllll</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
-            <li class="member">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvNRAu6lhqeqH0fexU5NtocTVa9eW7XZWsA&usqp=CAU"
-                alt="">
-              <div class="name">
-                <h3>drake</h3>
-                <p>howdoyoudospace</p>
-                <span class="date">2:09 pm</span>
-              </div>
-            </li>
+          <ul id="myUL">
+
           </ul>
         </div>
       </section>
       <section class="chat">
         <header>
-          <h3><span class="to">to:</span>drake</h3>
+          <h3><span class="to">to:</span><strong id="send-to">drake</strong></h3>
         </header>
         <div class="chat-page">
           <div class="messages">
-            <span class="date">monday,1:27 PM</span>
-            <p class="friend">so, how's your new phone?</p>
-            <p class="friend">you finally have a smartphone :D</p>
-            <p class="me">drake?</p>
-            <p class="me">Why aren't you answering?</p>
-            <p class="friend">howdoyoudospace</p>
-            <p class="friend">so, how's your new phone?</p>
-            <p class="friend">you finally have a smartphone :D</p>
-            <p class="me">drake?</p>
-            <p class="me">Why aren't you answering?</p>
-            <p class="friend">howdoyoudospace</p>
-            <p class="friend">so, how's your new phone?</p>
-            <p class="friend">you finally have a smartphone :D</p>
-            <p class="me">drake?</p>
-            <p class="me">Why aren't you answering?</p>
-            <p class="friend">howdoyoudospace</p>
+
           </div>
           <div class="clear"></div>
-          <form action="" class="send">
+          <form id="form-chat" action="" class="send">
             <i class="fas fa-paperclip"></i>
-            <input type="text" name="message">
+            <input type="text" id="msg-chat" placeholder="Aa" name="message">
             <i class="far fa-smile"></i>
-            <button type="submit">
+            <button id="btn-chat" type="submit">
               <i class="fas fa-paper-plane"></i>
             </button>
           </form>
@@ -189,6 +73,8 @@
       </section>
     </div>
   </main>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
